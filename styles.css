@@ -1,0 +1,45 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 80 px;   
+}
+
+a {
+    text-align: center;
+}
+
+.main {
+    padding: 20px 20px;
+    background-color: azure;
+}
+
+li {
+    font-size: 16px;
+}
+
+.ingredients {
+    background-color: bisque;
+}
+
+.steps {
+    background-color: beige;
+}
+
+div {
+    padding: 20px;
+}
+
+.description {
+    background-color: blanchedalmond;
+    font-weight: 300;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    padding: 5px;
+}
