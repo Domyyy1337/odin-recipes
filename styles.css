@@ -1,9 +1,32 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
 * {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-box {
+    text-align: center;
+    margin: 0px;
+    width: 600px;
+}
+
+img {
+    border-radius: 16px;
+    max-width: 100%;
+    margin: 0px;
+}
+
 h1 {
     font-size: 80 px;   
+    text-align: center;
+    width: 600px;
 }
 
 a {
@@ -25,6 +48,13 @@ li {
 
 .steps {
     background-color: beige;
+}
+
+.ingredients, .steps, .description {
+    width: 600px;
+    margin: 8px;
+    padding: 20px;
+    border-radius: 16px;
 }
 
 div {
