@@ -1,45 +1,47 @@
-*, *:before, *:after {
-    box-sizing: border-box;
-  }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 * {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 html {
-    background-color: cornsilk;
+  background-color: cornsilk;
 }
 
 .header {
-    display: flex;
-    color: black;
-    background-color: aquamarine;
-    justify-content: space-between;
-    height: 70px;
-    width: 600px;
-    padding: 20px;
-    margin: 8px;
-    border-radius: 16px;
+  display: flex;
+  color: black;
+  background-color: aquamarine;
+  justify-content: space-between;
+  height: 70px;
+  width: 600px;
+  padding: 20px;
+  margin: 8px;
+  border-radius: 16px;
 }
 
 .footer {
-    display: flex;
-    background-color: aquamarine;
-    justify-content: space-between;
-    width: 600px;
-    border-radius: 16px;
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-between;
+  width: 600px;
+  border-radius: 16px;
 }
 
 .header-text {
-    padding-left: 50px;
-    text-align: center;
+  padding-left: 50px;
+  text-align: center;
 }
 
 .recipe-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*body {
@@ -48,75 +50,68 @@ html {
 }*/
 
 .image-box {
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-    width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  width: 600px;
 }
 
 .link {
-    display: block;
-    box-sizing: border-box;
-    text-align: center;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
 }
 .h2-desc {
-    padding-right: 20px;
-    text-align: left;
+  padding-right: 20px;
+  text-align: left;
 }
 
 img {
-    border-radius: 16px;
-    max-width: 100%;
-    margin: 0px;
+  border-radius: 16px;
+  max-width: 100%;
+  margin: 0px;
 }
-
 h1 {
-    font-size: 80 px;   
-    text-align: center;
-    width: 600px;
+  font-size: 80 px;
+  text-align: center;
+  width: 600px;
 }
-
 .main {
-    padding: 20px 20px;
-    background-color: azure;
+  padding: 20px 20px;
+  background-color: azure;
 }
 
 li {
-    font-size: 18px;
+  font-size: 18px;
 }
-
 .ingredients {
-    background-color: bisque;
+  background-color: bisque;
 }
-
 .steps {
-    background-color: beige;
+  background-color: beige;
 }
-
-.ingredients, .steps, .description {
-    width: 600px;
-    margin: 8px;
-    padding: 20px;
-    border-radius: 16px;
-    display: flex;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-}
-
-div {
-    padding: 20px;
-}
-
+.ingredients,
+.steps,
 .description {
-    background-color: blanchedalmond;
-    font-weight: 300;
+  width: 600px;
+  margin: 8px;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
 }
-
+div {
+  padding: 20px;
+}
+.description {
+  background-color: blanchedalmond;
+  font-weight: 300;
+}
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
-
 li {
-    padding: 5px;
+  padding: 5px;
 }
